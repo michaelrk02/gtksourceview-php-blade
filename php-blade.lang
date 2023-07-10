@@ -391,7 +391,7 @@
     </context>
 
     <context id="blade-directive" style-ref="preprocessor">
-      <match>@(.+)</match>
+      <match>@([^@{].+|{{|@)</match>
     </context>
 
     <context id="php-blade-block">
